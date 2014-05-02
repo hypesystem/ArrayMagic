@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMagic", "ArrayMagic\ArrayMagic.csproj", "{239A01AB-8113-4E9A-8DEF-0ED4417AD398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMagicTests", "ArrayMagicTests\ArrayMagicTests.csproj", "{FFD711C3-E133-4EC6-A70B-03D4FB71112B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{239A01AB-8113-4E9A-8DEF-0ED4417AD398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239A01AB-8113-4E9A-8DEF-0ED4417AD398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239A01AB-8113-4E9A-8DEF-0ED4417AD398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239A01AB-8113-4E9A-8DEF-0ED4417AD398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD711C3-E133-4EC6-A70B-03D4FB71112B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD711C3-E133-4EC6-A70B-03D4FB71112B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD711C3-E133-4EC6-A70B-03D4FB71112B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD711C3-E133-4EC6-A70B-03D4FB71112B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
