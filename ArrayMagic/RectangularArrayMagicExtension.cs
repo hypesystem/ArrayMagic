@@ -31,5 +31,14 @@ namespace ArrayMagic
 
             return new RectangularArrayRow<T>(arr, row);
         }
+
+        public static IEnumerable<T> EnumerateRow<T>(this T[,] arr, int row)
+        {
+            if (row > arr.GetLength(0))
+                throw new ArgumentOutOfRangeException("No such row in array.", "row");
+
+            for (int i = 0; i < arr.GetLength(1); i++)
+                yield return arr[row, i];
+        }
     }
 }
