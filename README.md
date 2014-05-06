@@ -48,3 +48,7 @@ It's also useful if you just want to learn how to count in binary:
         }
         Console.WriteLine();
     }
+    
+## Speed
+
+![Data and stuff](data.png)
