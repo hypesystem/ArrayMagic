@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMagic", "ArrayMagic\Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMagicTests", "ArrayMagicTests\ArrayMagicTests.csproj", "{FFD711C3-E133-4EC6-A70B-03D4FB71112B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMagicPerformer", "ArrayMagicPerformer\ArrayMagicPerformer.csproj", "{ADD98A8B-254D-4EB8-A78C-E2E2A365DD28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{FFD711C3-E133-4EC6-A70B-03D4FB71112B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFD711C3-E133-4EC6-A70B-03D4FB71112B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFD711C3-E133-4EC6-A70B-03D4FB71112B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD98A8B-254D-4EB8-A78C-E2E2A365DD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD98A8B-254D-4EB8-A78C-E2E2A365DD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD98A8B-254D-4EB8-A78C-E2E2A365DD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD98A8B-254D-4EB8-A78C-E2E2A365DD28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
