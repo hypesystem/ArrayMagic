@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="BitArrayTests.cs" />
+    <Compile Include="RectangularArrayCopyColumnTests.cs" />
     <Compile Include="RectangularArrayRowTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

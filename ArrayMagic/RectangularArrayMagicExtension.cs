@@ -40,5 +40,14 @@ namespace ArrayMagic
             for (int i = 0; i < arr.GetLength(1); i++)
                 yield return arr[row, i];
         }
+
+        public static T[] CopyColumn<T>(this T[,] arr, int col)
+        {
+            var result = new T[arr.GetLength(0)];
+            for(int i = 0; i < result.Length; i++) {
+                result[i] = arr[i, col];
+            }
+            return result;
+        }
     }
 }
