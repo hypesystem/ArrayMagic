@@ -1,13 +1,12 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Xunit;
 using ArrayMagic;
 
 namespace ArrayMagicTests
 {
-    [TestClass]
     public class RectangularArrayCopyColumnTests
     {
-        [TestMethod]
+        [Fact]
         public void RectArrayCopyColumn_1x1Rect_Column()
         {
             int[,] rect_arr = new int[1, 1];
@@ -15,10 +14,10 @@ namespace ArrayMagicTests
 
             var col = rect_arr.CopyColumn(0);
 
-            Assert.AreEqual(1, col[0]);
+            Assert.Equal(1, col[0]);
         }
 
-        [TestMethod]
+        [Fact]
         public void RectArrayCopyColumn_2x1Rect_Column()
         {
             int[,] rect_arr = new int[2, 1];
@@ -26,8 +25,8 @@ namespace ArrayMagicTests
             rect_arr[1, 0] = 2;
 
             var col = rect_arr.CopyColumn(0);
-            Assert.AreEqual(1, col[0]);
-            Assert.AreEqual(2, col[1]);
+            Assert.Equal(1, col[0]);
+            Assert.Equal(2, col[1]);
         }
     }
 }
